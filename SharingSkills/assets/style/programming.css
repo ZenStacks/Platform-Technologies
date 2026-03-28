@@ -1,0 +1,95 @@
+body{
+    font-family: Arial;
+    background: white;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+.whole-main-container{
+    width: 100%;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #000000, #2f1745);
+    color: white;
+    width: 100%;
+}
+.navigation i{
+    font-size: 28px;
+    width: 70px;
+    height: 50px;
+    color: white;
+}
+.navigation h2{
+    font-size: 28px;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    margin: 0;
+}
+.courses-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.courses-display h3,
+.courses-display p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.courses-display h3{
+    font-weight: bold;
+}
+.courses-display button {
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #000000, #2f1745);
+    color: white;
+    cursor: pointer;
+}
+.stars {
+    display: flex;
+    gap: 2px;
+    margin-top: 5px;
+}
+
+.stars .star {
+    font-size: 24px;
+    color: gold;
+    cursor: pointer;
+    line-height: 1;
+    user-select: none;
+    background: none;
+    border: none;
+}
+.stars .star:hover {
+    color: darkorange;
+}
+
+
